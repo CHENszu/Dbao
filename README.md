@@ -63,6 +63,6 @@ First, you need to install the corresponding python module on your linux server 
 Then you need to modify the account and password corresponding to your own large model and database:
 - .env
 - database.py line22
-- main.py line104 108 112
+- main.py line104 108 112  
 Finally, you just need to start the start.sh configuration file!  
 
