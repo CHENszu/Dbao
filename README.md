@@ -6,4 +6,14 @@ The Dbao framework supports parsing images, videos, and various types of text do
 Each user can define their own account  
 <img width="490" height="705" alt="2" src="https://github.com/user-attachments/assets/477e183f-232f-4458-9769-8b4dbeb1798a" />  
 The user's data will be saved in the sql database  
-<img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />
+<img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />  
+## Introduction to Code Files
+**main.py** 
+- 应用程序的主入口点，基于FastAPI构建的Web服务
+- 负责初始化数据库连接、认证表和CORS配置
+- 配置OpenAI客户端连接到通义千问模型服务
+- 实现会话管理功能和多模态处理能力
+- 定义PDF/DOCX文本抽取和视频抽帧等工具函数
+- 提供API端点实现与前端交互
+
+
