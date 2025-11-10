@@ -9,12 +9,12 @@ The user's data will be saved in the sql database
 <img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />  
 ## Introduction to Code Files
 **1 main.py** 
-- 应用程序的主入口点，基于FastAPI构建的Web服务
-- 负责初始化数据库连接、认证表和CORS配置
-- 配置OpenAI客户端连接到通义千问模型服务
-- 实现会话管理功能和多模态处理能力
-- 定义PDF/DOCX文本抽取和视频抽帧等工具函数
-- 提供API端点实现与前端交互  
+- The main entry point of the application, a web service built on FastAPI
+- Responsible for initializing database connections, authentication tables, and CORS configuration
+- Configure the OpenAI client to connect to the Tongyi Qianwen model service
+- Implement session management functionality and multimodal processing capabilities
+- Define utility functions such as PDF/DOCX text extraction and video frame extraction
+- Provide API endpoints for interaction with the frontend 
 
 **2 auth.py**  
 - 用户认证和权限管理模块
