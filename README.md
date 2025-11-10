@@ -58,3 +58,11 @@ The user's data will be saved in the sql database
   - File operations: Read files, list directory contents
   - mcp_fetch: Crawl web pages using MCP service
 
+## Quick start 
+First, you need to install the corresponding python module on your linux server according to requirements.txt.  
+Then you need to modify the account and password corresponding to your own large model and database:
+- .env
+- database.py line22
+- main.py line104 108 112
+Finally, you just need to start the start.sh configuration file!  
+
