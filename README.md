@@ -65,4 +65,6 @@ Then you need to modify the account and password corresponding to your own large
 - database.py line22
 - main.py line104 108 112  
 Finally, you just need to start the start.sh configuration file!  
+<img width="1849" height="943" alt="4" src="https://github.com/user-attachments/assets/8c5d129b-d66a-4b03-ab1b-369aacb43aca" />  
+<img width="1866" height="922" alt="5" src="https://github.com/user-attachments/assets/a24b9e67-f425-4344-81a1-d2c9e8b324b9" />
 
