@@ -7,6 +7,7 @@ Each user can define their own account
 <img width="490" height="705" alt="2" src="https://github.com/user-attachments/assets/477e183f-232f-4458-9769-8b4dbeb1798a" />  
 The user's data will be saved in the sql database  
 <img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />  
+
 ## Introduction to Code Files
 **1 main.py** 
 - The main entry point of the application, a web service built on FastAPI
@@ -17,43 +18,43 @@ The user's data will be saved in the sql database
 - Provide API endpoints for interaction with the frontend 
 
 **2 auth.py**  
-- 用户认证和权限管理模块
-- 实现AuthService类处理用户注册、登录、Token验证等核心功能
-- 包含密码加密、Token生成与验证、用户信息管理等方法
-- 提供init_auth_tables函数初始化认证相关的数据表结构
+- User authentication and permission management module
+- Implement the AuthService class to handle core functions such as user registration, login, and Token verification
+- Include methods for password encryption, Token generation and verification, user information management, etc.
+- Provide the init_auth_tables function to initialize the structure of authentication-related data tables
   
 **3 database.py**  
-- 数据库配置和操作核心模块
-- 提供数据库连接配置和获取数据库连接的函数
-- 负责初始化数据库表结构（会话表、消息表、图片表、附件表等）
-- 实现SessionManager类管理会话的创建、获取、更新、删除等操作
-- 包含MemoryDB类处理用户记忆和会话摘要的存储与检索
+- Database configuration and core operation module
+- Provide database connection configuration and functions for obtaining database connections
+- Responsible for initializing database table structures (session table, message table, image table, attachment table, etc.)
+- Implement the SessionManager class to manage operations such as session creation, retrieval, update, and deletion
+- Include the MemoryDB class to handle the storage and retrieval of user memory and session summaries
 
 **4 mcp_client.py**  
-- MCP（Model Control Protocol）客户端实现
-- 通过stdio协议与本地MCP服务器进行通信
-- 支持Python和Node.js类型的MCP服务器
-- 实现MCPClient类处理与MCP服务器的具体通信逻辑
-- 定义MCP服务器配置（fetch/time/git等）
-- 实现MCPManager类管理多个MCP客户端实例
+- MCP (Model Control Protocol) client implementation
+- Communicate with the local MCP server via the stdio protocol
+- Support Python and Node.js type MCP servers
+- Implement the MCPClient class to handle specific communication logic with the MCP server
+- Define MCP server configurations (fetch/time/git, etc.)
+- Implement the MCPManager class to manage multiple MCP client instances
 
 **5 rag_engine.py**  
-- 检索增强生成（RAG）引擎实现
-- 支持本地文档的向量化存储和高效检索
-- 包含DocumentProcessor类处理文档读取（PDF/DOCX/TXT）和分块
-- 实现XinferenceEmbedding类进行文本向量化处理
-- RAGEngine类负责文档索引构建、增量更新和语义检索
+- Retrieval-Augmented Generation (RAG) engine implementation
+- Support vectorized storage and efficient retrieval of local documents
+- Include the DocumentProcessor class to handle document reading (PDF/DOCX/TXT) and chunking
+- Implement the XinferenceEmbedding class for text vectorization processing
+- The RAGEngine class is responsible for document index construction, incremental updates, and semantic retrieval
 
 **6 tools.py**  
-- 工具定义和注册模块，为大模型提供工具调用能力
-- 实现ToolRegistry类用于工具的注册和调用管理
-- 注册了多种实用工具函数，如：
-  - get_current_time：获取当前时间
-  - calculate：执行数学计算
-  - amap_*：高德地图相关功能（地理编码、逆地理编码、POI搜索）
-  - fetch_*：网页内容获取和摘要生成
-  - rag_search：基于本地知识库的检索
-  - get_weather：天气查询
-  - file操作：读取文件、列出目录内容
-  - mcp_fetch：使用MCP服务抓取网页
+- Tool definition and registration module, providing tool calling capabilities for large language models
+- Implement the ToolRegistry class for tool registration and call management
+- Register a variety of practical tool functions, such as:
+  - get_current_time: Get the current time
+  - calculate: Perform mathematical calculations
+  - amap_*: Amap-related functions (geocoding, reverse geocoding, POI search)
+  - fetch_*: Web content acquisition and summary generation
+  - rag_search: Retrieval based on local knowledge base
+  - get_weather: Weather query
+  - File operations: Read files, list directory contents
+  - mcp_fetch: Crawl web pages using MCP service
 
