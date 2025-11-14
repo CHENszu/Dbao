@@ -9,7 +9,16 @@ You can upload pictures/videos/common documents
 <img width="1844" height="946" alt="1" src="https://github.com/user-attachments/assets/989f57da-19fb-4ece-94f9-cbb689b9b01d" />  
 The user's data will be saved in the sql database  
 <img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />  
-
+We listened to the user's suggestions, rendered the responses of the large model in markdown, and made font Settings.  
+  
+Our Agent is being developed step by step...  
+**1.OCR document comparison**
+<img width="647" height="665" alt="差异" src="https://github.com/user-attachments/assets/5deddc2e-828f-42cf-91f0-8337a87c0ccf" />  
+And we have configured the calling interface in the path ~/agent/OCR, and in ~/qwenv/test/ test. ipynb provides a calling example:  
+<img width="1110" height="593" alt="图片" src="https://github.com/user-attachments/assets/66cf71af-ad26-4f8b-86c2-302edbb50f47" />  
+**2.Website monitoring**  
+<img width="705" height="589" alt="图片" src="https://github.com/user-attachments/assets/bb71257e-cc8a-4fa1-8df0-515151193be9" />  
+  
 ## Introduction to Code Files
 **1 main.py** 
 - The main entry point of the application, a web service built on FastAPI
@@ -69,6 +78,3 @@ Then you need to modify the account and password corresponding to your own large
 - **rag_engine.py line122 202(embedding)**    
 
 Finally, you just need to start the start.sh configuration file!  Let's start!  
-<img width="1849" height="943" alt="4" src="https://github.com/user-attachments/assets/8c5d129b-d66a-4b03-ab1b-369aacb43aca" />  
-<img width="1866" height="922" alt="5" src="https://github.com/user-attachments/assets/a24b9e67-f425-4344-81a1-d2c9e8b324b9" />
-
