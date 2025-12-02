@@ -22,21 +22,18 @@ Dbao会自动监测大模型端口，添加本地已经部署好的大模型，�
 <img width="1857" height="930" alt="记忆测试1" src="https://github.com/user-attachments/assets/4448d370-4981-4f2f-9175-7b625d06673c" />
 ## 7 多模态性能
 我们可以同时上传图片，视频和文字文档给大模型一起处理：
-<img width="1854" height="939" alt="多文件测试" src="https://github.com/user-attachments/assets/dba1de12-601f-4cd8-a964-e7b52b20f332" />
+
 ## 8 markdown渲染
 所有模型的输出都经历了渲染，使得更好看：
 <img width="1875" height="990" alt="markdown渲染" src="https://github.com/user-attachments/assets/e768d403-99ff-44c1-a7b2-2d5b5e899d15" />
 ## 9 数据永久化存储
 我们在后端使用sql数据库记录了所有用户的所有信息：
 <img width="1380" height="899" alt="数据库" src="https://github.com/user-attachments/assets/c9d080b7-2c2a-403c-a5e0-fc85cf8d1207" />
-
-
-
-Our Agent is being developed step by step...  
-**1.OCR document comparison**  
+## 10 调用工具
+**1.OCR文档对比**  
 And we have configured the calling interface in the path ~/agent/OCR, and in ~/qwenv/test/ test. ipynb provides a calling example:  
 <img width="1110" height="593" alt="图片" src="https://github.com/user-attachments/assets/66cf71af-ad26-4f8b-86c2-302edbb50f47" />  
-**2.Website monitoring**  
+**2.网站更新监测**  
 <img width="705" height="589" alt="图片" src="https://github.com/user-attachments/assets/bb71257e-cc8a-4fa1-8df0-515151193be9" />  
   
 ## Introduction to Code Files
