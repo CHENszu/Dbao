@@ -20,14 +20,11 @@ Dbao会自动监测大模型端口，添加本地已经部署好的大模型，�
 在这里我们测试大模型的记忆功能，中途换模型也不会有影响：
 <img width="1859" height="932" alt="记忆测试" src="https://github.com/user-attachments/assets/5294085b-a217-4d25-9f3c-ab71d9dc2dcf" />
 <img width="1857" height="930" alt="记忆测试1" src="https://github.com/user-attachments/assets/4448d370-4981-4f2f-9175-7b625d06673c" />
+## 7 多模态性能
+我们可以同时上传图片，视频和文字文档给大模型一起处理：
 
 
 
-
-
-
-<img width="490" height="705" alt="2" src="https://github.com/user-attachments/assets/477e183f-232f-4458-9769-8b4dbeb1798a" />  
-<img width="1844" height="946" alt="1" src="https://github.com/user-attachments/assets/989f57da-19fb-4ece-94f9-cbb689b9b01d" />  
 <img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />  
   
 Our Agent is being developed step by step...  
