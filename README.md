@@ -1,6 +1,6 @@
 # Dbao
 在这里，我们搭建了一个Dbao大模型交互客户端，可以应用于企业的局域网连接，为企业数据隐私和大模型交互提供一个前端和后端交互框架。Dbao支持解析图像、视频和各种类型的文本文档。它还配备了上下文记忆，切换模型，各种mcp功能（如解析网页等），以构建企业专用的RAG知识库。  
-Dbao可以给初步入门大模型开发的同学提供一定的思路，并且还可以在此基础上进行进一步完善。希望Dbao能够给你带来不一样的体验。
+Dbao可以给初步入门大模型开发的同学提供一定的思路，并且还可以在此基础上进行进一步完善。希望Dbao能够给你带来不一样的体验。注意：所有演示的数据都使用公开的的测试数据集，请勿泄露重要信息。祝好~
 ## 1 启动模型
 为了方便大家快速上手，我们写了一个start.sh启动文件，大家只需要填写.env文件并且配置好对应的环境内容即可：  
 <img width="627" height="854" alt="启动项" src="https://github.com/user-attachments/assets/6c33d5fb-7d57-43d8-8ca4-a3f055f458f6" />
@@ -22,11 +22,16 @@ Dbao会自动监测大模型端口，添加本地已经部署好的大模型，�
 <img width="1857" height="930" alt="记忆测试1" src="https://github.com/user-attachments/assets/4448d370-4981-4f2f-9175-7b625d06673c" />
 ## 7 多模态性能
 我们可以同时上传图片，视频和文字文档给大模型一起处理：
+<img width="1854" height="939" alt="多文件测试" src="https://github.com/user-attachments/assets/dba1de12-601f-4cd8-a964-e7b52b20f332" />
+## 8 markdown渲染
+所有模型的输出都经历了渲染，使得更好看：
+<img width="1875" height="990" alt="markdown渲染" src="https://github.com/user-attachments/assets/e768d403-99ff-44c1-a7b2-2d5b5e899d15" />
+## 9 数据永久化存储
+我们在后端使用sql数据库记录了所有用户的所有信息：
+<img width="1380" height="899" alt="数据库" src="https://github.com/user-attachments/assets/c9d080b7-2c2a-403c-a5e0-fc85cf8d1207" />
 
 
 
-<img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />  
-  
 Our Agent is being developed step by step...  
 **1.OCR document comparison**  
 And we have configured the calling interface in the path ~/agent/OCR, and in ~/qwenv/test/ test. ipynb provides a calling example:  
