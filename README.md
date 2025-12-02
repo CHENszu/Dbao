@@ -1,15 +1,19 @@
 # Dbao
-Here, we have built a similar Dbao large model interaction client, which can be applied to the local area network connection of enterprises and provide a front-end and back-end interaction framework for enterprise data privacy and large model interaction.  
-## Function Introduction
-The Dbao framework supports parsing images, videos, and various types of text documents. It is also equipped with context memory and various mcp functions (such as parsing web pages, etc.) to build an enterprise-specific RAG knowledge base.  
-  
-Each user can define their own account  
+在这里，我们搭建了一个Dbao大模型交互客户端，可以应用于企业的局域网连接，为企业数据隐私和大模型交互提供一个前端和后端交互框架。Dbao支持解析图像、视频和各种类型的文本文档。它还配备了上下文记忆，切换模型，各种mcp功能（如解析网页等），以构建企业专用的RAG知识库。  
+Dbao可以给初步入门大模型开发的同学提供一定的思路，并且还可以在此基础上进行进一步完善。希望Dbao能够给你带来不一样的体验，祝好~
+## 启动模型
+为了方便大家快速上手，我们写了一个start.sh启动文件，大家只需要填写.env文件并且配置好对应的环境内容即可：  
+<img width="627" height="854" alt="启动项" src="https://github.com/user-attachments/assets/6c33d5fb-7d57-43d8-8ca4-a3f055f458f6" />
+## 注册和登陆
+正式进入之前大家需要进行一个简单的注册：
+<img width="508" height="718" alt="注册" src="https://github.com/user-attachments/assets/30399669-7ce3-4173-a2cc-d0e2b9a65b33" />
+## 界面简介  
+在这里，Dbao会自动记录同一用户的消息，并且启用了回溯功能，用户可以查看历史信息；并且如果您使用的是多模态模型，那么就可以上传图片，视频（会进行抽帧处理）和文本等文件；我们在右下角设置了暂停功能，方便用户聊天：
+<img width="1856" height="945" alt="界面介绍" src="https://github.com/user-attachments/assets/a6c4865b-a7c5-4b75-a084-eb5b8b5b0096" />
+
 <img width="490" height="705" alt="2" src="https://github.com/user-attachments/assets/477e183f-232f-4458-9769-8b4dbeb1798a" />  
-You can upload pictures/videos/common documents  
 <img width="1844" height="946" alt="1" src="https://github.com/user-attachments/assets/989f57da-19fb-4ece-94f9-cbb689b9b01d" />  
-The user's data will be saved in the sql database  
 <img width="1438" height="1010" alt="3" src="https://github.com/user-attachments/assets/6455ba71-a023-4eff-ab22-a40183a01d1c" />  
-We listened to the user's suggestions, rendered the responses of the large model in markdown, and made font Settings.  
   
 Our Agent is being developed step by step...  
 **1.OCR document comparison**  
