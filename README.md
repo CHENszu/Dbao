@@ -31,7 +31,7 @@ Dbao会自动监测大模型端口，添加本地已经部署好的大模型，�
 <img width="1380" height="899" alt="数据库" src="https://github.com/user-attachments/assets/c9d080b7-2c2a-403c-a5e0-fc85cf8d1207" />
 ## 10 调用工具
 **1.OCR文档对比**  
-And we have configured the calling interface in the path ~/agent/OCR, and in ~/qwenv/test/ test. ipynb provides a calling example:  
+我们只用输入两个文档进行对比即可：
 <img width="1110" height="593" alt="图片" src="https://github.com/user-attachments/assets/66cf71af-ad26-4f8b-86c2-302edbb50f47" />  
 **2.网站更新监测**  
 <img width="705" height="589" alt="图片" src="https://github.com/user-attachments/assets/bb71257e-cc8a-4fa1-8df0-515151193be9" />  
