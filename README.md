@@ -22,7 +22,8 @@ Dbao会自动监测大模型端口，添加本地已经部署好的大模型，�
 <img width="1857" height="930" alt="记忆测试1" src="https://github.com/user-attachments/assets/4448d370-4981-4f2f-9175-7b625d06673c" />
 ## 7 多模态性能
 我们可以同时上传图片，视频和文字文档给大模型一起处理：
-
+<img width="1858" height="942" alt="0多文件测试" src="https://github.com/user-attachments/assets/95655a52-7d5b-4799-9992-b10d3306661a" />
+<img width="1798" height="934" alt="1" src="https://github.com/user-attachments/assets/a656a95f-6d55-4e01-ba1a-cf936c4c0a01" />
 ## 8 markdown渲染
 所有模型的输出都经历了渲染，使得更好看：
 <img width="1875" height="990" alt="markdown渲染" src="https://github.com/user-attachments/assets/e768d403-99ff-44c1-a7b2-2d5b5e899d15" />
