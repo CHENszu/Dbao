@@ -12,7 +12,9 @@ Dbao可以给初步入门大模型开发的同学提供一定的思路，并且�
 <img width="1856" height="945" alt="界面介绍" src="https://github.com/user-attachments/assets/a6c4865b-a7c5-4b75-a084-eb5b8b5b0096" />
 ## 4 工具调用
 为了使大模型有更强大的功能，我们在里面部署了一些常用的工具（比如时间，地图，网页解析等）：  
-<img width="1644" height="854" alt="工具调用" src="https://github.com/user-attachments/assets/a1419527-6d2f-4790-aeb0-a5d61963e07c" />
+<img width="1644" height="854" alt="工具调用" src="https://github.com/user-attachments/assets/a1419527-6d2f-4790-aeb0-a5d61963e07c" />  
+我们在这里展示了工具调用实例：  
+<img width="1851" height="935" alt="2 RAG" src="https://github.com/user-attachments/assets/e174d63e-00d3-4867-8139-7f2720314551" />
 ## 5 模型选择
 Dbao会自动监测大模型端口，添加本地已经部署好的大模型，并且还可以添加我们购买的大模型接口：
 <img width="1637" height="788" alt="模型选择" src="https://github.com/user-attachments/assets/95c39f6d-c54b-477f-a215-525ff4b18064" />
