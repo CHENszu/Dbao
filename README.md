@@ -14,7 +14,9 @@ Dbao可以给初步入门大模型开发的同学提供一定的思路，并且�
 为了使大模型有更强大的功能，我们在里面部署了一些常用的工具（比如时间，地图，网页解析等）：  
 <img width="1644" height="854" alt="工具调用" src="https://github.com/user-attachments/assets/a1419527-6d2f-4790-aeb0-a5d61963e07c" />  
 我们在这里展示了工具调用实例：  
-<img width="1851" height="935" alt="2 RAG" src="https://github.com/user-attachments/assets/e174d63e-00d3-4867-8139-7f2720314551" />
+<img width="1851" height="935" alt="2 RAG" src="https://github.com/user-attachments/assets/e174d63e-00d3-4867-8139-7f2720314551" />  
+所有的项目都需要先经过测试后才能部署上线，对于RAG，用户可以在这里自由添加文件，我们使用北京智源研究院（BAAI）开发的BGE-M3进行向量化，新添加的文件会自动向量化并保存：  
+<img width="1408" height="994" alt="3RAG" src="https://github.com/user-attachments/assets/7af02d9a-fee5-4de4-9e2c-f96d32b0897b" />
 ## 5 模型选择
 Dbao会自动监测大模型端口，添加本地已经部署好的大模型，并且还可以添加我们购买的大模型接口：
 <img width="1637" height="788" alt="模型选择" src="https://github.com/user-attachments/assets/95c39f6d-c54b-477f-a215-525ff4b18064" />
